@@ -1,0 +1,27 @@
+[project]
+name = "keras-classify"
+version = "0.1.0"
+description = "keras introduction"
+ authors = [
+    {name = "Intri Desktop", email = "intriqet@outlook.com"},
+]
+dependencies = [
+	'pandas',
+	'numpy',
+	'matplotlib',
+	'keras',
+	'scikit-learn',
+	'ruff',
+	'pytest',
+	'loguru', ]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.pdm]
+distribution = true
