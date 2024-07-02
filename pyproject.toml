@@ -6,14 +6,16 @@ description = "keras introduction"
     {name = "Intri Desktop", email = "intriqet@outlook.com"},
 ]
 dependencies = [
-	'pandas',
-	'numpy',
-	'matplotlib',
-	'keras',
-	'scikit-learn',
-	'ruff',
-	'pytest',
-	'loguru', ]
+    'pandas',
+    'numpy',
+    'matplotlib',
+    'keras',
+    'scikit-learn',
+    'ruff',
+    'pytest',
+    'loguru',
+    "requests>=2.32.3",
+]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
