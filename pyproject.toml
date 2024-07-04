@@ -7,7 +7,7 @@ description = "keras introduction"
 ]
 dependencies = [
     'pandas',
-    'numpy',
+    'numpy==1.7',
     'matplotlib',
     'keras',
     'scikit-learn',
@@ -15,6 +15,8 @@ dependencies = [
     'pytest',
     'loguru',
     "requests>=2.32.3",
+    "tensorflow[and-cuda]<2.11"
+    "ipython"
 ]
 requires-python = ">=3.10"
 readme = "README.md"
