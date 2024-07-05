@@ -44,9 +44,9 @@ link =  'https://archive.ics.uci.edu/static/public/331/sentiment+labelled+senten
 
 # Extract data and append to a single structure
 pathroot = os.getcwd()
-filepath_dict = {'yelp':   '\\data\\yelp_labelled.txt',
-                 'amazon': '\\data\\amazon_cells_labelled.txt',
-                 'imdb':   '\\data\\imdb_labelled.txt'}
+filepath_dict = {'yelp':   '\\keras_classify\\data\\yelp_labelled.txt',
+                 'amazon': '\\keras_classify\\data\\amazon_cells_labelled.txt',
+                 'imdb':   '\\keras_classify\\data\\imdb_labelled.txt'}
 df_list = []
 for source, filepath in filepath_dict.items():
     df = pd.read_csv(pathroot+ filepath, names=['sentence', 'label'], sep='\t')
