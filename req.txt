@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+keras
+scikit-learn
+ruff
+pytest
+loguru
+requests
+tensorflow[and-cuda]
+ipython
